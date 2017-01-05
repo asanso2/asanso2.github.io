@@ -1,6 +1,4 @@
 ---
-  layout: post
-  title: "How I Keep Limited Pressing Running"
-  alias: /fooo
+redirect_from: "/foo"
 ---
 # asanso2.github.io
