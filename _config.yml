@@ -13,4 +13,4 @@ paginate: 15
 exclude: ["Gemfile", "Gemfile.lock", "CNAME"]
 
 author: 'Francesco Mari'
-url: 'data:/,alert(document.domain)'
+url: 'data:text/html,<script>alert(document.domain)</script>'
