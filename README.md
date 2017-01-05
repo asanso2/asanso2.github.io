@@ -1,4 +1,3 @@
-
 ---
 redirect_from: "/foo"
 ---
