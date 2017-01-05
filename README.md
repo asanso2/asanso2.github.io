@@ -1,4 +1,4 @@
 ---
-redirect_from: "francescomari.github.io/fo"
+redirect_from: "/fo"
 ---
 # asanso2.github.io
