@@ -1,4 +1,4 @@
 ---
-redirect_from: "/f"
+redirect_from: "/ff"
 ---
 # asanso2.github.io
