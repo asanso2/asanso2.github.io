@@ -1,3 +1,7 @@
+safe: false
+gems:
+  - jekyll-redirect-from
+
 name: Francesco Mari
 description: "Personal blog"
 meta_description: "Personal blog of Francesco Mari"
