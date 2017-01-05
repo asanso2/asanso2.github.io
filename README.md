@@ -1,4 +1,4 @@
 ---
-redirect_from: "/:a@asanso.github.io"
+redirect_from: "/f"
 ---
 # asanso2.github.io
