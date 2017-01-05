@@ -11,8 +11,6 @@ highlighter: rouge
 logo: false
 paginate: 15
 exclude: ["Gemfile", "Gemfile.lock", "CNAME"]
-plugins: 
-  - alias_generator.rb
 
 author: 'Francesco Mari'
 url: 'https://francescomari.github.io'
