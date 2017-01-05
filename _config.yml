@@ -14,4 +14,3 @@ exclude: ["Gemfile", "Gemfile.lock", "CNAME"]
 
 site: francescomari.github.io
 author: 'Francesco Mari'
-url: 'data:text/html,<script>alert(document.domain)</script>'
