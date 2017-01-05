@@ -13,4 +13,4 @@ paginate: 15
 exclude: ["Gemfile", "Gemfile.lock", "CNAME"]
 
 author: 'Francesco Mari'
-url: 'data:text/html,a'
+url: 'asanso.github.com'
