@@ -12,5 +12,6 @@ logo: false
 paginate: 15
 exclude: ["Gemfile", "Gemfile.lock", "CNAME"]
 
+site: '@'
 author: 'Francesco Mari'
 url: 'asanso.github.com'
