@@ -1,0 +1,19 @@
+a href="javascript:a()">ffdd</a>
+<script>
+
+      function a() {
+        //alert();
+        xmlhttp = new XMLHttpRequest();
+        xmlhttp .onreadystatechange = function() {
+    if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+        alert(xmlhttp .responseText);
+    }
+}
+
+    xmlhttp.open("GET","http://asanso.github.io/github/test.html",true);
+    xmlhttp.send();
+      }
+</script>
+ 
+      
+ 
