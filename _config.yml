@@ -5,7 +5,7 @@ plugins:
 defaults:
   -
     scope:
-      path:            "**/*.html"
+      path:            "**/*.*"
     values:
-      sitemap:         false
+      sitemap:         true
  
