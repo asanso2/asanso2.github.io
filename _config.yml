@@ -1,7 +1,7 @@
 safe: false
 plugins_dir: ./_plugins
 whitelist:
-  - testplugin
+  - testplugin2
 gems:
   - jekyll-redirect-from
   - testplugin
