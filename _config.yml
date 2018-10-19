@@ -2,16 +2,6 @@ safe: false
 gems:
   - jekyll-redirect-from
 
-name: Francesco Mari
-description: "Personal blog"
-meta_description: "Personal blog of Francesco Mari"
-
-markdown: kramdown
-highlighter: rouge
-logo: false
-paginate: 15
-exclude: ["Gemfile", "Gemfile.lock", "CNAME"]
-
-site: francescomari.github.io
-author: 'Francesco Mari'
-url: 
+---
+redirect_from: "/foo/"
+---
