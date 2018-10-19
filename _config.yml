@@ -4,4 +4,4 @@ whitelist:
   - testplugin23
 gems:
   - jekyll-redirect-from
-  - testplugin
+  - jekyll-sitemap
