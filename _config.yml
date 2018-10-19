@@ -1,1 +1,3 @@
 safe: false
+plugins:
+  - jekyll-redirect-from
