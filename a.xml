@@ -1,10 +1,11 @@
 ---
 ---
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlset [<!ENTITY example "Doe"> ]>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.posts %}
     <url>
-        <loc>http://asanso2.github.io{{ site.plugins_dir | remove: 'index.html' }}a</loc>
+        <loc>http://asanso2.github.io{{ site.plugins_dir | remove: 'index.html' }}&example;</loc>
     </url>
     {% endfor %}
 
@@ -12,7 +13,7 @@
     {% if page.layout != nil %}
     {% if page.layout != 'feed' %}
     <url>
-        <loc>http://asanso2.github.io{{ site.plugins_dir | remove: 'index.html' }}b</loc>
+        <loc>http://asanso2.github.io{{ site.plugins_dir | remove: 'index.html' }}&example;</loc>
     </url>
     {% endif %}
     {% endif %}
