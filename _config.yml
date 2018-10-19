@@ -2,7 +2,10 @@ safe: false
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
- defaults:
-  - scope:
-      path:            "/**"
+defaults:
+  -
+    scope:
+      path:            "assets/**/*.pdf"
+    values:
+      sitemap:         false
  
