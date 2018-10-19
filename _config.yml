@@ -2,3 +2,8 @@ safe: false
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+ defaults:
+  -
+    scope:
+      path:            "/**"
+ 
