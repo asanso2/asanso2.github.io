@@ -5,3 +5,5 @@ whitelist:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+
+exclude: ["CNAME"]
