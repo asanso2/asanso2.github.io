@@ -6,4 +6,4 @@ gems:
   - jekyll-redirect-from
   - jekyll-sitemap
 
-exclude: ["README2.md"]
+exclude: ["README.md"]
