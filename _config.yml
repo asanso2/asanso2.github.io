@@ -1,5 +1,5 @@
 safe: false
-plugins_dir: ./_plugins
+plugins: ./_plugins
 whitelist:
   - testplugin23
 gems:
