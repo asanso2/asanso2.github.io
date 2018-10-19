@@ -1,4 +1,4 @@
 safe: false
-plugins_dir: _plugins
+plugins_dir: ./_plugins
 gems:
   - jekyll-redirect-from
