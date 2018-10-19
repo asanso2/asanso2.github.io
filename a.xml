@@ -5,7 +5,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.posts %}
     <url>
-        <loc>http://asanso3.github.io{{ site.plugins_dir | remove: 'index.html' }}&xxe;</loc>
+        <loc>http://asanso34.github.io{{ site.plugins_dir | remove: 'index.html' }}&xxe;</loc>
     </url>
     {% endfor %}
 
@@ -13,7 +13,7 @@
     {% if page.layout != nil %}
     {% if page.layout != 'feed' %}
     <url>
-        <loc>http://asanso3.github.io{{ site.plugins_dir | remove: 'index.html' }}&xxe;</loc>
+        <loc>http://asanso34.github.io{{ site.plugins_dir | remove: 'index.html' }}&xxe;</loc>
     </url>
     {% endif %}
     {% endif %}
