@@ -1,0 +1,23 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlset [
+<!ENTITY xxe "AAAAAAAAAAAAAAAAAAA...">
+]>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.posts %}
+    <url>
+        <loc>http://asanso34.github.io{{ site.plugins_dir | remove: 'index.html' }}&xxe;</loc>
+    </url>
+    {% endfor %}
+
+    {% for page in site.pages %}
+    {% if page.layout != nil %}
+    {% if page.layout != 'feed' %}
+    <url>
+        <loc>http://asanso34.github.io{{ site.plugins_dir | remove: 'index.html' }}&xxe;&xxe;&xxe;&xxe;&xxe;</loc>
+    </url>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</urlset>
