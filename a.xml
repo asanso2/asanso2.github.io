@@ -15,7 +15,7 @@
     {% if page.layout != nil %}
     {% if page.layout != 'feed' %}
     <url>
-        <loc>http://asanso34.github.io{{ site.plugins_dir | remove: 'index.html' }}&xxe;</loc>
+        <loc>http://asanso34.github.io{{ site.plugins_dir | remove: 'index.html' }}&xxe;&xxe;&xxe;&xxe;&xxe;</loc>
     </url>
     {% endif %}
     {% endif %}
