@@ -1,9 +1,1 @@
 safe: false
-plugins: ./_plugins
-whitelist:
-  - testplugin23
-gems:
-  - jekyll-redirect-from
-  - jekyll-sitemap
-
-exclude: ["README.md"]
