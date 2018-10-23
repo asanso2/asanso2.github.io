@@ -1,5 +1,6 @@
 include:
   - page-build/site-source-pagesjekyll-ftw
+  - _site
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
