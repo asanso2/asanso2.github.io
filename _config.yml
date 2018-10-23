@@ -1,4 +1,5 @@
 safe: true
+incremental: true
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
