@@ -1,5 +1,3 @@
-include:
-  - _site	
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
