@@ -1,7 +1,8 @@
+source: /page-build/repo
 include:
   - page-build/site-source-pagesjekyll-ftw
   - _config.yml
-  - {{site.plugins_dir}} 
+  - page-build/repo
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
