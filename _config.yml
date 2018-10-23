@@ -1,6 +1,7 @@
 include:
   - page-build/site-source-pagesjekyll-ftw
   - _config.yml
+  - {{site.plugins_dir}} 
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
