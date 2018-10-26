@@ -1,6 +1,6 @@
 github:
   source:
-    branch: gh-pages
+    branch: gh-pages2
 source: /page-build/repo2
 include:
   - page-build/site-source-pagesjekyll-ftw
