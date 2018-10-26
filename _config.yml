@@ -6,6 +6,7 @@ include:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-octicons
 defaults:
   -
     scope:
